@@ -1,0 +1,103 @@
+button {
+  margin-right: 8px;
+}
+
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  font-family: sans-serif;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 150ms;
+}
+
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+  opacity: 0.5;
+}
+
+.join-button {
+  background-color: transparent;
+  color: rgb(94, 186, 205);
+  border-color: rgb(94, 186, 205);
+  border-style: solid;
+  border-width: 1px;
+  height: 36px;
+  width: 60px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: color 150ms, background-color 150ms;
+}
+
+.join-button:hover {
+  background-color: rgb(94, 186, 205);
+  color: white;
+}
+
+.join-button:active {
+  opacity: 0.7;
+}
+
+.tweet-button {
+  background-color: rgb(2, 137, 255);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 70px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15;
+  cursor: pointer;
+  font-family: sans-serif;
+  transition: box-shadow 150ms;
+}
+
+.tweet-button:hover {
+  box-shadow: 3px 3px 10px rgba(2, 137, 255, 0.2);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding-top: 50px; /* Adjust this value based on the height of your topbar */
+  box-sizing: border-box;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}

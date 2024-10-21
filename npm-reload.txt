@@ -1,0 +1,4 @@
+
+## This command reloads html file automatically in browser ##
+
+reload -b
