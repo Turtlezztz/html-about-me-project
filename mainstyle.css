@@ -4,10 +4,37 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: black;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+p.about-me-text {
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.surround-about {
+    display: flex;
+    border: 2px solid coral;
+    background-color: rgb(253, 213, 199);
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+}
+
 .picture {
     background-image: url("https://fastly.picsum.photos/id/997/200/200.jpg?hmac=J9wMccIJgdwcAV_BlxcoN1N_oKWGt4Wb8EqkKqp-4gE");
     background-size: cover;
     background-position: center;
-    width: 100%;
-    height: 400px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+
 }

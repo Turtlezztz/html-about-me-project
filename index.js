@@ -15,3 +15,9 @@ fetch("mainpage.html")
     .then(data => {
         document.getElementById("main-page").innerHTML = data;
     });
+
+    fetch("text-files/about-me.txt")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("about-text").innerHTML = data;
+        });
