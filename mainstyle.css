@@ -27,6 +27,16 @@ p.about-me-text {
     margin: 10px;
 }
 
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-one .project-two {
+    flex: 1;
+}
+
 .picture {
     background-image: url("https://fastly.picsum.photos/id/997/200/200.jpg?hmac=J9wMccIJgdwcAV_BlxcoN1N_oKWGt4Wb8EqkKqp-4gE");
     background-size: cover;
