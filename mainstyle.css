@@ -47,6 +47,7 @@ p.about-me-text {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex: 1 1 auto;
     padding: 20px;
     border: 2px solid coral;
     background-color: white;
@@ -64,4 +65,20 @@ p.about-me-text {
     border-radius: 50%;
     margin: 0 auto;
     margin-top: 20px;
+}
+
+.picture-one {
+    background-image: url(https://www.svgrepo.com/show/349296/arch-linux.svg);
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+}
+
+.picture-two {
+    background-image: url(https://www.svgrepo.com/show/353884/html-5.svg);
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
 }
