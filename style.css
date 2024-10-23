@@ -101,3 +101,11 @@ body {
 .nav-links a:hover {
   text-decoration: underline;
 }
+
+
+
+
+.main-page-style {
+  margin: 10%;
+  margin-top: 0%;
+}
